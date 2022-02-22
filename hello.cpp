@@ -53,6 +53,15 @@ void test5(){
     }
 }
 
+void test6(){
+    int ans = add(1,2);
+    if(ans == 3) {
+        std::cout << "test6 passed !!" << std::endl;
+    } else {
+        std::cout << "test6 failed !!" << std::endl;
+    }
+}
+
 int main() {
     std::cout << "Hello World!!" << std::endl;
     test1();
@@ -60,5 +69,6 @@ int main() {
     test3();
     test4();
     test5();
+    test6();
     return 0;
 }
