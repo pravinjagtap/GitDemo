@@ -91,5 +91,7 @@ int main() {
     test6();
     test7();
     test8();
+
+    std::cout << "Done testing!!" << std::endl;
     return 0;
 }
