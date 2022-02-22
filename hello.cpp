@@ -101,7 +101,8 @@ void test10(){
 }
 
 int main() {
-    std::cout << "Hello World!!" << std::endl;
+    std::cout << "Started testing..." << std::endl;
+    
     test1();
     test2();
     test3();
