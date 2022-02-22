@@ -53,6 +53,35 @@ void test5(){
     }
 }
 
+
+void test6(){
+    int ans = add(1,2);
+    if(ans == 3) {
+        std::cout << "test6 passed !!" << std::endl;
+    } else {
+        std::cout << "test6 failed !!" << std::endl;
+    }
+}
+
+
+void test7(){
+    int ans = sub(2,2);
+    if(ans == 0) {
+        std::cout << "test7 passed !!" << std::endl;
+    } else {
+        std::cout << "test7 failed !!" << std::endl;
+    }
+}
+
+void test8(){
+    int ans = sub(4,2);
+    if(ans == 2) {
+        std::cout << "test8 passed !!" << std::endl;
+    } else {
+        std::cout << "test8 failed !!" << std::endl;
+    }
+}
+
 void test9(){
     int ans = sub(10,6);
     if(ans == 4) {
@@ -78,7 +107,12 @@ int main() {
     test3();
     test4();
     test5();
+    test6();
+    test7();
+    test8();
     test9();
     test10();
+
+    std::cout << "Done testing!!" << std::endl;
     return 0;
 }
