@@ -72,6 +72,15 @@ void test7(){
     }
 }
 
+void test8(){
+    int ans = sub(4,2);
+    if(ans == 2) {
+        std::cout << "test8 passed !!" << std::endl;
+    } else {
+        std::cout << "test8 failed !!" << std::endl;
+    }
+}
+
 int main() {
     std::cout << "Hello World!!" << std::endl;
     test1();
@@ -81,5 +90,6 @@ int main() {
     test5();
     test6();
     test7();
+    test8();
     return 0;
 }
