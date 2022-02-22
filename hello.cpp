@@ -44,11 +44,21 @@ void test4(){
     }
 }
 
+void test5(){
+    int ans = add(6,6);
+    if(ans == 12) {
+        std::cout << "test5 passed !!" << std::endl;
+    } else {
+        std::cout << "test5 failed !!" << std::endl;
+    }
+}
+
 int main() {
     std::cout << "Hello World!!" << std::endl;
     test1();
     test2();
     test3();
     test4();
+    test5();
     return 0;
 }
