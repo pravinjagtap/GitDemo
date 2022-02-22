@@ -74,7 +74,7 @@ void test7(){
 }
 
 void test8(){
-    int ans = sub(4,2);
+    int ans = sub(4,2) + 1;
     if(ans == 2) {
         std::cout << "test8 passed !!" << std::endl;
     } else {
