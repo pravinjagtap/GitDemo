@@ -26,9 +26,19 @@ void test2(){
     }
 }
 
+void test3(){
+    int ans = add(3,3);
+    if(ans == 6) {
+        std::cout << "test3 passed !!" << std::endl;
+    } else {
+        std::cout << "test3 failed !!" << std::endl;
+    }
+}
+
 int main() {
     std::cout << "Hello World!!" << std::endl;
     test1();
     test2();
+    test3();
     return 0;
 }
