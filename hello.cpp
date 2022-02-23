@@ -1,5 +1,15 @@
 #include <iostream>
 
+namespace myMath {
+int divide(int a, int b) {
+    return a/b;
+}
+
+int mult(int a, int b) {
+    return a*b;
+}
+} // end of myMath
+
 int sub(int a, int b) {
     return a-b;
 }
