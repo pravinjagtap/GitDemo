@@ -110,6 +110,15 @@ void test10(){
     }
 }
 
+void test11(){
+    int ans = myMath::mult(2,2);
+    if(ans == 4) {
+        std::cout << "test11 passed !!" << std::endl;
+    } else {
+        std::cout << "test11 failed !!" << std::endl;
+    }
+}
+
 int main() {
     std::cout << "Started testing..." << std::endl;
     
@@ -123,6 +132,7 @@ int main() {
     test8();
     test9();
     test10();
+    test11();
 
     std::cout << "Done testing!!" << std::endl;
     return 0;
